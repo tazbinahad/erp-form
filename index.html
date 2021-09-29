@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .h1,
+        .h2,
+        .h3,
+        .h4,
+        .h5,
+        .h6,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin-bottom: .5rem;
+            font-weight: 500;
+            line-height: 1.2;
+            color: #000;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        .table-design {
+            max-width: 100%;
+
+        }
+
+        .table-wrapper {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 40px;
+            border: 1px solid #e7e7e7;
+        }
+
+        .section-heading {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .heading-image>img {
+            width: 100px;
+        }
+
+        .heading-title {
+            text-align: center;
+        }
+
+        .heading-title h3 {
+            font-size: 1.5rem;
+
+        }
+
+        .heading-title h6 {
+            font-size: 1.175rem;
+
+
+        }
+
+        .heading-title h4 {
+            font-size: 1.35rem;
+        }
+
+        .short-details {
+            display: flex;
+            padding: 10px 0;
+        }
+
+        .parchaseReport .reportInfo .reports h6 {}
+
+        .parchaseReport .reportInfo {
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid #000;
+            border-radius: 8px;
+            padding: 15px 10px;
+        }
+
+        .main-table {
+            margin-top: 20px;
+        }
+
+        table {
+            border-collapse: collapse;
+            /* border: 1px solid grey; */
+        }
+
+        th,
+        td {
+            border: 1px solid grey;
+            padding-right: 10px;
+            padding-left: 10px;
+        }
+
+
+
+        /* tr:nth-child(even) {
+            background-color: lightgrey;
+        } */
+
+        th {
+            background-color: #D6DADD;
+        }
+
+        .other-point-info {
+            max-width: 65%;
+            margin-top: 20px;
+        }
+        .others{
+            margin-top: 20px;
+        }
+        .others p {
+            margin: 0;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="table-design">
+        <div class="table-wrapper">
+            <div class="section-heading">
+                <div class="heading-image">
+                    <img src="https://erp.ibos.io/domain/Document/DownlloadFile?id=615159acf37288f5197e8b23" alt="">
+                </div>
+                <div class="heading-title">
+                    <h3>Demo Business Unit</h3>
+                    <h6>Lalmatia, Dhaka, Bangladesh</h6>
+                    <h4>Purchase Order</h4>
+                </div>
+                <div></div>
+            </div>
+            <div class="short-details">
+                <p>Purchase Order No: <span>PO-DBU-AUG21-54</span></p>
+                <p>Order Date: <span>2021-08-30</span></p>
+                <p>Status: <span>Approved</span></p>
+            </div>
+            <div class="parchaseReport">
+                <div class="reportInfo">
+                    <div class="reports reportInfo1">
+                        <p>Supplier: <span>PRIME BANK LTD</span></p>
+                        <p>Email: <span>demo@ibos.io</span></p>
+                        <p>Attn: <span>PRIME BANK LTD</span></p>
+                        <p>Phone: <span>01758746556</span></p>
+                        <p>Address: <span>Dhaka</span></p>
+                    </div>
+                    <div class="reportInfo2">
+                        <p>Ship To: <span>iBos center</span></p>
+                        <p>Bin No. <span></span></p>
+                        <p>PR No. <span>PC-DBU-JUN21-16</span></p>
+                    </div>
+                    <div class="reportInfo3">
+                        <p>Bill To:</p>
+                        <p>Demo Business Unit</p>
+                        <p>Bin No. <span></span></p>
+                        <p>Lalmatia, Dhaka, Bangladesh</p>
+                    </div>
+                </div>
+            </div>
+            <div class="main-table">
+                <table>
+                    <tr>
+                        <th>SL</th>
+                        <th>ITEM</th>
+                        <th>DESCRIPTION</th>
+                        <th>UoM</th>
+                        <th>QTY.</th>
+                        <th>RATE</th>
+                        <th>VAT (%)</th>
+                        <th>VAT AMOUNT</th>
+                        <th>TOTAL</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>HP Laptop</td>
+                        <td></td>
+                        <td>Pieces</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>HP Laptop</td>
+                        <td></td>
+                        <td>Pieces</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>HP Laptop</td>
+                        <td></td>
+                        <td>Pieces</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                </table>
+
+            </div>
+            <div class="other-point-info">
+                <table class="table custom-table">
+                    <tr>
+                        <td><span>Partial Shipment</span></td>
+                        <td>No</td>
+                        <td><span>Freight</span></td>
+                        <td style="width: 100px;">0</td>
+                    </tr>
+                    <tr>
+                        <td><span>No of Shipment</span></td>
+                        <td>1</td>
+                        <td><span> Others Charge</span></td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><span> Last Shipment Date</span></td>
+                        <td>2021-09-14</td>
+                        <td><span> Gross Discount</span></td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><span> Payment terms</span></td>
+                        <td>Credit</td>
+                        <td><span> Commission</span></td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><span> Payment days after MRR</span></td>
+                        <td>21</td>
+                        <td><span><b>Grand Total</b></span></td>
+                        <td><b>50</b></td>
+                    </tr>
+                    <tr>
+                        <td><span> No of Installment</span></td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td><span> Installment Interval (Days)</span></td>
+                        <td>0</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="others">
+                <p>TOTAL (IN WORD): FIFTY TK ONLY</p>
+                <p>Other terms: <span>NA </span></p>
+                <p>Other charges: <span>NA </span></p>
+                <p>Prepared By: <span>NA </span></p>
+                <p>Approved By: <span>NA </span></p>
+            </div>
+            <div class="global-table">
+                <table>
+                    <tr>
+                        <th>SL</th>
+                        <th>ITEM</th>
+                        <th>DESCRIPTION</th>
+                        <th>UoM</th>
+                        <th>QTY.</th>
+                        <th>QTY.</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>HP Laptop</td>
+                        <td></td>
+                        <td>Pieces</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>HP Laptop</td>
+                        <td></td>
+                        <td>Pieces</td>
+                        <td>0</td>
+                        <td>0</td>
+
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>HP Laptop</td>
+                        <td></td>
+                        <td>Pieces</td>
+                        <td>0</td>
+                        <td>0</td>
+      
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
