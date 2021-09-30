@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", Helvetica, "sans-serif";
+    font-size: 13px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #000;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+table {
+    width: 100%;
+}
+/* Global classes */
+.uppercase{
+    text-transform: uppercase;
+}
+.bold{
+    font-weight: 700;
+}
+
+/* --------------- */
+.table-design {
+    max-width: 100%;
+    padding: 30px 0;
+    
+}
+
+.table-wrapper {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 1px solid #e7e7e7;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
+}
+
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+}
+.heading-image>img {
+    width: 100px;
+}
+.heading-title {
+    text-align: center;
+}
+.heading-title h3 {
+    font-size: 22px;
+}
+.heading-title h6 {
+    font-size: 16px;
+}
+.heading-title h4 {
+    font-size: 18px
+}
+.short-details {
+    display: flex;
+    padding: 10px 0;
+    font-weight: 500;
+}
+.short-details p {
+    padding-right: 10px;
+}
+.short-details p span {
+    padding-right: 10px;
+    font-weight: normal;
+}
+.parchaseReport .reportInfo {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 15px 10px;
+}
+.main-table {
+    margin-top: 20px;
+}
+table {
+    border-collapse: collapse;
+}
+th,
+td {
+    border: 1px solid #D6DADD;
+    padding: 5px 10px;
+}
+.main-table table td {
+    font-size: 12px;
+}
+
+th {
+    background-color: #D6DADD;
+}
+
+.other-point-info {
+    max-width: 65%;
+    margin-top: 20px;
+}
+
+.others {
+    margin-top: 20px;
+}
+
+.others p {
+    margin: 0;
+    margin-bottom: 8px;
+}
